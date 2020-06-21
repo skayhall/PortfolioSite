@@ -23,7 +23,7 @@ function validation() {
     //if the contact name field has less then 3 characters validate and display....
     if (contactname.length <3) {
 
-        errormessage = "Your full name needs be atleast 3 characters. ";
+        errormessage = "Your full name needs to be at least 3 characters. ";
         errormessagecon.innerHTML = errormessage;
         return false
 
